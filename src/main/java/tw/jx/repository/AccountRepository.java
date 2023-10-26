@@ -1,5 +1,9 @@
 package tw.jx.repository;
 
-public class AccountRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import tw.jx.bean.Account;
+
+public interface AccountRepository extends JpaRepository<Account, Integer> {
 
 }
