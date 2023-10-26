@@ -25,11 +25,14 @@ public class Account {
 	@Column(name ="Nevel")
 	private Integer nevel;
 	
-	@Column(name="Gender")
-	private String gender;
-	
 	@Column(name="Body")
 	private String body;
+	
+	@Column(name="Endurance")
+	private Integer endurance;
+	
+	@Column(name="Energy")
+	private Integer energy;
 
 	public Integer getAccountId() {
 		return accountId;
@@ -63,13 +66,6 @@ public class Account {
 		this.nevel = nevel;
 	}
 
-	public String getGender() {
-		return gender;
-	}
-
-	public void setGender(String gender) {
-		this.gender = gender;
-	}
 
 	public String getBody() {
 		return body;
@@ -77,6 +73,22 @@ public class Account {
 
 	public void setBody(String body) {
 		this.body = body;
+	}
+
+	public Integer getEndurance() {
+		return endurance;
+	}
+
+	public void setEndurance(Integer endurance) {
+		this.endurance = endurance;
+	}
+
+	public Integer getEnergy() {
+		return energy;
+	}
+
+	public void setEnergy(Integer energy) {
+		this.energy = energy;
 	}
 	
 	
