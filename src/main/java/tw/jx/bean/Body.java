@@ -19,4 +19,22 @@ public class Body {
 	@Column(name="BodySize")
 	private String bodySize;
 
+	public Integer getBodyId() {
+		return bodyId;
+	}
+
+	public void setBodyId(Integer bodyId) {
+		this.bodyId = bodyId;
+	}
+
+	public String getBodySize() {
+		return bodySize;
+	}
+
+	public void setBodySize(String bodySize) {
+		this.bodySize = bodySize;
+	}
+	
+	
+
 }
